@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+:lang(bn) {
+    font-family: Kalpurush;
+}
+
+:lang(en) {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.field-container {
+    width: 540pt;
+}
+
+.field-container > .title {
+    font-size: 9pt;
+    color: #fff;
+}
+
+.field-container > .title > .fg {
+    padding-left: 5pt;
+}
+
+.field-container > .title > .bg {
+    border-bottom: 13pt solid #E8175B;
+	border-right: 7pt solid transparent;
+	height: 0;
+    width: 211pt;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -999;
+}
+
+.field-container > .content {
+    padding: 5pt;
+    font-size: 8pt;
+    border: 0.8pt solid #E8175B;
+    top: -2pt;
+}
+
+.field-container > .content span:lang(bn) {
+    font-size: 7.5pt;
+}
+
+.field-container > .content .field-value > .bg {
+    border-top: 0.8pt dotted #BCBEC1;
+    width: 98%;
+    position: absolute;
+    bottom: 2pt;
+    right: 10pt;
+}
+
+.field-container > .content .field-value > .bg-en {
+    bottom: 0pt;
+}
+
+.field-container > .content .field-name {
+    float: left;
+    display: block;
+}
+
+.field-container > .content .field-name span.indented::before {
+    content: "";
+    display: inline-block;
+}
+
+#nameEnglishFirst span.indented::before {
+    margin-left: 136pt;
+}
+
+#nameEnglishLast span.indented::before {
+    margin-left: 230pt;
+}
+
+.field-container > .content .field-value {
+    left: 5pt;
+    display: block;
+    overflow: hidden;
+}
+
+.field-value .fg span:lang(en) {
+}
+
+.hint {
+    color: #808285;
+}
+
+.field-container .field-name .hint {
+    display: inline-block;
+    left: 10pt;
+    top: -2pt;
+    font-size: 7pt;
+}
