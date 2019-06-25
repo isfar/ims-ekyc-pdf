@@ -83,11 +83,11 @@
 }
 
 #nameEnglishFirst span.indented::before {
-    margin-left: 125pt;
+    margin-left: 128pt;
 }
 
 #nameEnglishLast span.indented::before {
-    margin-left: 209pt;
+    margin-left: 215pt;
 }
 
 .field-container > .content .field-value {
@@ -126,12 +126,12 @@ ul.num-box-list li {
 }
 
 ul.num-box-list li.border-left {
-    border-left: 0.7pt solid #808285;
+    border-left: 0.5pt solid #808285;
 }
 
 ul.num-box-list li.indent-left {
     margin-left: 3pt;
-    border-left: 0.7pt solid #808285;
+    border-left: 0.5pt solid #808285;
 }
 
 .field-value .checkbox {
@@ -140,7 +140,7 @@ ul.num-box-list li.indent-left {
     margin-right: 3pt;
     width: 9pt;
     height: 9pt;
-    border: 0.7pt solid #808285;
+    border: 0.5pt solid #808285;
 }
 
 .field-value .checked {
