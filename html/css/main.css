@@ -25,12 +25,12 @@
 }
 
 .field-container {
-    width: 540pt;
-    margin-bottom: 2pt;
+    width: 663pt;
+    margin-bottom: 3pt;
 }
 
 .field-container > .title {
-    font-size: 9pt;
+    font-size: 11pt;
     color: #fff;
 }
 
@@ -39,25 +39,25 @@
 }
 
 .field-container > .title > .bg {
-    border-bottom: 13pt solid #E8175B;
-	border-right: 7pt solid transparent;
-	height: 0;
-    width: 195pt;
+    border-bottom: 16pt solid #E8175B;
+    border-right: 8pt solid transparent;
+    height: 0;
+    width: 240pt;
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -999;
+    z-index: -999
 }
 
 .field-container > .content {
     padding: 5pt 5pt 2pt 5pt;
-    font-size: 8pt;
+    font-size: 9pt;
     border: 0.8pt solid #E8175B;
     top: -2pt;
 }
 
 .field-container > .content span:lang(bn) {
-    font-size: 7.5pt;
+    font-size: 9.5pt;
 }
 
 .field-container > .content .field-value > .bg {
@@ -118,8 +118,8 @@ ul.num-box-list {
 ul.num-box-list li {
     display: block;
     float: left;
-    height: 12pt;
-    width: 12pt;
+    height: 15pt;
+    width: 15pt;
     border: 0.7pt solid #808285;
     border-left: 0;
     text-align: center;
@@ -138,15 +138,15 @@ ul.num-box-list li.indent-left {
     display: block;
     float: left;
     margin-right: 3pt;
-    width: 9pt;
-    height: 9pt;
+    width: 10pt;
+    height: 10pt;
     border: 0.7pt solid #808285;
 }
 
 .field-value .checked {
     background: url(../images/check.png);
     background-repeat: no-repeat;
-    background-size: 9pt 9pt;
+    background-size: 10pt 10pt;
 }
 
 .field {
@@ -175,16 +175,17 @@ ul.num-box-list li.indent-left {
 }
 
 #disclaimer {
-    font-size: 6pt;
-    padding: 5pt;
-    margin-top: 4pt;
+    font-size: 7pt;
+    padding: 6pt;
+    margin-top: 5pt;
+    margin-bottom: 1pt;
     color: #808285;
 }
 
 #header {
-    font-size: 8pt;
-    width: 540pt;
-    height: 145pt;
+    font-size: 9.5pt;
+    width: 663pt;
+    height: 179pt;
 }
 
 #header > .left {
@@ -202,27 +203,27 @@ ul.num-box-list li.indent-left {
 }
 
 #header > .center {
-    width: 200pt;
+    width: 300pt;
     text-align: center;
     margin: 0 auto 0 auto;
 }
 
 #bkash-logo {
-    width: 71pt;
-    height: 42pt;
+    width: 86pt;
+    height: 52pt;
     margin-bottom: 8pt;
 }
 
 #header .left .date {
     position: absolute;
-    top: 130pt;
+    top: 156pt;
 }
 
 #header .right .avatar {
     margin-top: 10pt;
     text-align: center;
-    height: 109pt;
-    width: 97pt;
+    height: 131pt;
+    width: 119pt;
     border: 1pt dotted #808285;
     position: absolute;
     top: 0;
@@ -230,14 +231,14 @@ ul.num-box-list li.indent-left {
 }
 
 #header .right .avatar .bg {
-    margin-top: 40pt;
+    margin-top: 53pt;
     display: inline-block;
     z-index: -10;
 }
 
 #header .right .field {
     display: inline-table;
-    top: 140pt;
+    top: 173pt;
 }
 
 #header .right .field .field-name, #header .right .field .field-value {
@@ -280,22 +281,25 @@ ul.num-box-list li.indent-left {
     margin-left: 53pt;
 }
 
+#registeringMobileNumber .field-name {
+    top: 3pt;
+}
+
 #footer .nid-box, .signature-box {
-    width: 152pt;
-    height: 100pt;
+    width: 189pt;
+    height: 123pt;
     display: block;
     float: left;
     border: 0.5pt solid #808285;
     margin: 10pt;
+    text-align: center;
 }
 
 #footer .signature-box {
-    height: 119pt;
+    height: 145pt;
+    width: 172pt;
 }
 
 #footer .nid-box .hint {
-    display: inline-block;
-    position: absolute;
-    left: 56pt;
-    bottom: 10px;
+    top: 100pt;
 }
